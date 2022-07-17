@@ -15,10 +15,19 @@ import time
 
 
 #grab urls for scraping
+#this grabs the historical data for these stocks, not just the current share price
 urls = []
 urls.append(["https://finance.yahoo.com/quote/ACCMF/history?p=ACCMF", "ACCMF"])#clydespacecubsat
 urls.append(["https://finance.yahoo.com/quote/GOMX.ST/history?p=GOMX", "GOMX.ST"])#Gomcubesat
 urls.append(["https://finance.yahoo.com/quote/AAC.ST/history?p=AAC.ST", "AAC.ST"])#aacclydesat
+urls.append(["https://finance.yahoo.com/quote/SPCE/history?p=SPCE"])#virginspace
+urls.append(["https://finance.yahoo.com/quote/AJRD/history?p=AJRD", "AAC.ST"])#aerojetrocketdyne
+urls.append(["https://finance.yahoo.com/quote/AAC.ST/history?p=AAC.ST", "AAC.ST"])#aacclydesat
+urls.append(["https://finance.yahoo.com/quote/AAC.ST/history?p=AAC.ST", "AAC.ST"])#aacclydesat
+urls.append(["https://finance.yahoo.com/quote/AAC.ST/history?p=AAC.ST", "AAC.ST"])#aacclydesat
+
+#add more stocks, get ride of dublicates
+
 
 
 
